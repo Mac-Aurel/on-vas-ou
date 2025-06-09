@@ -2,6 +2,7 @@ services:
   - type: web
     name: onvaou-api
     env: python
+    rootDir: backend
     buildCommand: ""
     startCommand: ./start.sh
     envVars:
